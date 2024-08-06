@@ -49,7 +49,7 @@ main:AddButton("Execute", function(IhateGayPeople)
        rawset(v, _G.custommethod, _G.methodvalue)
         end
     end
-elseif _G.getgc == false then
+elseif _G.getg == false then
     for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetDescendants()) do
         if v.Name == _G.custommethod then
             v.Value = _G.methodvalue
